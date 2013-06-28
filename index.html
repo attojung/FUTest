@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml/DTD/xhtml1 transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+	<head> 
+		<title>FUTest</title> 
+			<style type="text/css"> 
+				img{width:200px;height:128px;border:0;} 
+					.show{display:block;}
+					.hide{display:none;}
+			</style> 
+			
+			<script type="text/javascript">
+					function showImg()
+						{
+   						var obj=document.getElementById('image01');
+   						obj.className = 'show';
+						}
+			</script>
+	</head> 
+
+	<body> 
+			<img id="image01" src="FU.jpg" class="hide"> 
+			<br/> 
+			<input type="button" onclick = "showImg()" value= "Click"> 
+					
+			<form action="">
+					<input class="sub" type="submit" value="Clear">
+			</form>
+
+	</body> 
+	
+</html> 
